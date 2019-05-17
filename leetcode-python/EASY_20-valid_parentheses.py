@@ -3,6 +3,7 @@
 # insert chars into stack
 # if closing bracket and its previous element is not matching opening bracket, then return False
 # if newstack is not empty at the end, then return False.
+# we are inserting into newstack for closing brackets because we are checking at the end if any thing is left or not.
 
 class Solution:
     def isValid(self, s: str) -> bool:
