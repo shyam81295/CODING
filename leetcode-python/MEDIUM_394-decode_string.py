@@ -1,6 +1,10 @@
 # O(N) time and O(N) space complexity
 
 # implementation problem of stack
+
+# why stack?
+# because we need to process on some level as 'last in first order' on the current elements of stack
+
 # when you get ']', pop all alphabets in a string
 # then after you get '[', pop all numbers in a string
 # append in same stack
