@@ -47,7 +47,8 @@ class Solution:
                     if a.right:
                         myqueue.append(a.right)
                     node_list.append(a.val)
-            # last delimiter ke time queue will become empty, hence won't append to ans_list, bcoz we are appending only when it is delimiter and queue is not empty.
+            # last delimiter ke time queue will become empty, hence won't append to ans_list, 
+            # bcoz we are appending only when it is delimiter and queue is not empty.
             if node_list:
                 ans_list.append(node_list)
             del node_list
